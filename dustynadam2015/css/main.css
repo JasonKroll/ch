@@ -1,0 +1,28 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-color: #cccccc;
+	font-family: 'eb garamond', serif;
+	color: #E8E8E8;
+
+}
+p {
+	font-size: 20px;
+	text-align: center;
+}
+.small-space > p {
+	line-height: 0.5;
+}
+ul {
+	list-style: none;
+	display: block;
+	text-align: center;
+	list-style-position: outside;
+}
+h1 {
+	font-family: snellroundhandw01-scrip, cursive;
+	text-align: center;
+	color: #8DDCEE;
+}
+a {
+	color: #E8E8E8;
+}
