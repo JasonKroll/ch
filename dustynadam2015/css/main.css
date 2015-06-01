@@ -1,9 +1,17 @@
+
 body {
 	background-image: url("../images/background.jpg");
 	background-color: #cccccc;
 	font-family: 'eb garamond', serif;
 	color: #E8E8E8;
 }
+@font-face {
+  font-family: 'SnellRoundhand-Script';
+  src: url('../fonts/fontsSnellRoundhand-Script.eot?#iefix') format('embedded-opentype'),  url('../fonts/SnellRoundhand-Script.woff') format('woff'), url('../fonts/SnellRoundhand-Script.ttf')  format('truetype'), url('../fonts/SnellRoundhand-Script.svg#SnellRoundhand-Script') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 p {
 	font-size: 20px;
 	text-align: center;
@@ -18,7 +26,7 @@ ul {
 	list-style-position: outside;
 }
 h1 {
-	font-family: snellroundhandw01-scrip, cursive;
+	font-family: 'SnellRoundhand-Script', cursive;
 	text-align: center;
 	color: #8DDCEE;
 }
